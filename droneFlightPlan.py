@@ -14,6 +14,8 @@ changeable variables for flightplan: these can be changed by the user
 latitude = 40.5184505
 longitude = -74.4319010
 oscillations = 1
+increment = .1
+
 '''
 NON-changeable variables for flightplan: these can NOT be changed by the user
 - scale:  a factor of the increment that is added to the array
@@ -28,7 +30,7 @@ NON-changeable variables for flightplan: these can NOT be changed by the user
 - lowLevelRise = used to calculate P1 of rising phase 
 - highLevelRise = used to calculate P2 of rising phase
 '''
-increment = 1
+
 scale = 0
 gconstant = 9.807
 hmin = 10
